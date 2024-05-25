@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.top-div {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.word {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.rectangles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.rectangle {
+    background-color: #dcdcdc;
+    padding: 20px;
+    margin: 0 5px;
+    border: 1px solid #aaa;
+    flex: 1;
+    text-align: center;
+}
+
+.words {
+    display: flex;
+    justify-content: space-between;
+}
+
+.word-item {
+    flex: 1;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.lines {
+    margin-bottom: 20px;
+}
+
+.draggable {
+    cursor: move;
+}
+
+.dropzone {
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
