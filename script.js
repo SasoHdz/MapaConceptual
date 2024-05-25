@@ -95,7 +95,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
             }
         } else {
             draggable.classList.remove('hide');
-            alert("Ese no es su sitio. Intetalo nuevamente.")
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Intentalo otra vez.... !",
+              });
+
         }
     }
 });
